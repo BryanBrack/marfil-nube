@@ -21,7 +21,7 @@ export default function Philosophy() {
           <div className="phil-item">
             <span className="num">III.</span>
             <h3 className="serif">Empaque con intención</h3>
-            <p>Cada kit llega envuelto en papel, viruta de kraft y una tarjeta de bienvenida — listo para regalar.</p>
+            <p>Cada kit llega envuelto en papel, viruta de kraft y una tarjeta de agradecimiento — listo para regalar.</p>
           </div>
         </div>
       </div>
