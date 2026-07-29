@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="hero-text">
         <span className="eyebrow">Piezas hechas a mano · Bogotá</span>
         <h1>
-          Pequeños <em>rituales</em>,<br />
+          Pequeños <em>momentos</em>,<br />
           objetos con alma.
         </h1>
         <p>
