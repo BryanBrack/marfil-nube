@@ -1,0 +1,16 @@
+{
+  "models": [
+    {
+      "title": "Qwen Coder Local",
+      "provider": "ollama",
+      "model": "qwen2.5-coder:7b",
+      "contextLength": 8192
+    }
+  ],
+  "tabAutocompleteModel": {
+    "title": "Qwen Autocomplete",
+    "provider": "ollama",
+    "model": "qwen2.5-coder:7b"
+  },
+  "allowAnonymousTelemetry": false
+}
