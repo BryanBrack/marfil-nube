@@ -358,6 +358,19 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: opacity 0.35s ease, transform 0.35s ease, filter 0.35s ease;
+}
+
+.kit .kit-media:hover img {
+  transform: scale(1.02);
+}
+
+.kit .kit-media img.marmol {
+  filter: grayscale(0.15) contrast(1.02) brightness(0.95);
+}
+
+.kit .kit-media img.nube {
+  filter: grayscale(0) contrast(1.05) brightness(1.02) saturate(0.95);
 }
 
 .kit.left .kit-media {
@@ -466,6 +479,31 @@ header {
   font-size: 1.05rem;
 }
 
+.color-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.color-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+}
+
+.color-option.active {
+  color: var(--sage-dark);
+  font-weight: 600;
+}
+
 .swatch {
   width: 16px;
   height: 16px;
@@ -482,6 +520,14 @@ header {
 
 .swatch.nube {
   background: #ede7da;
+}
+
+.swatch.arena {
+  background: #d8c8a8;
+}
+
+.swatch.gris {
+  background: #c7c7c7;
 }
 
 .note {

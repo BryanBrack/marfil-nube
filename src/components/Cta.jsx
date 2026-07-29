@@ -3,7 +3,7 @@ export default function Cta() {
     <section className="cta">
       <div className="container">
         <span className="eyebrow">Reserva tu kit</span>
-        <h2 className="serif">Elige el detalle que quieres regalar</h2>
+        <h2 className="serif">Elige el ritual que quieres regalarte</h2>
         <p>Producción artesanal en lotes limitados desde Bogotá. Escríbenos para conocer disponibilidad y tiempos de entrega.</p>
         <p style={{ color: 'var(--ink-soft)', maxWidth: '520px', margin: '0 auto 38px' }}>
           Podemos personalizar la selección de piezas y ayudarte a preparar un regalo listo para sorprender.

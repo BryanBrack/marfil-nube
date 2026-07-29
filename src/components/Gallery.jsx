@@ -12,7 +12,7 @@ export default function Gallery() {
         </div>
         <div className="gallery-grid">
           <div className="gallery-item">
-            <img src={galleryPack} alt="Kit Luz y Calma recién desempacado con ramas de eucalipto y tarjeta de agradecimiento" />
+            <img src={galleryPack} alt="Kit Luz y Calma recién desempacado con ramas de eucalipto y tarjeta de bienvenida" />
             <span className="g-tag">El empaque</span>
           </div>
           <div className="gallery-item">
