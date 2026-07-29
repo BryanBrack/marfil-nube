@@ -32,15 +32,6 @@ export default function KitSection({ kit }) {
           <span className="eyebrow">{kit.eyebrow}</span>
           <h2 className="serif">{kit.name}</h2>
           <p className="tagline">{kit.tagline}</p>
-          <span className="contains-label">El kit contiene</span>
-          <ul className="contains-list">
-            {kit.contains.map((item) => <li key={item}>{item}</li>)}
-          </ul>
-          <div className="meta-row">
-            <div className="meta-item">
-              <span className="meta-label">Material</span>
-              <span className="meta-value">{kit.material}</span>
-            </div>
             <div className="meta-item">
               <span className="meta-label">Colores</span>
               <div className="meta-value color-list">
@@ -56,6 +47,15 @@ export default function KitSection({ kit }) {
                   </button>
                 ))}
               </div>
+            </div>
+          <span className="contains-label">El kit contiene</span>
+          <ul className="contains-list">
+            {kit.contains.map((item) => <li key={item}>{item}</li>)}
+          </ul>
+          <div className="meta-row">
+            <div className="meta-item">
+              <span className="meta-label">Material</span>
+              <span className="meta-value">{kit.material}</span>
             </div>
           </div>
           <p className="note">{kit.note}</p>
