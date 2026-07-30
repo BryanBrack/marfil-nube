@@ -13,7 +13,7 @@ export const kits = [
     tagline: 'Un detalle pensado para transformar los pequeños momentos de cada día.',
     variants: [
       { name: 'Marmoleado negro', swatchClass: 'marmol', image: refugioMarmol },
-      { name: 'Marfil Nube', swatchClass: 'nube', image: refugioNube }
+      { name: 'Blanco marfil', swatchClass: 'nube', image: refugioNube }
     ],
     contains: ['1 Bandeja ovalada', '1 Portacepillos', '1 Dispensador para jabón líquido'],
     material: 'Concreto decorativo',
@@ -31,7 +31,7 @@ export const kits = [
     tagline: 'Un detalle pensado para decorar y regalar.',
     variants: [
       { name: 'Marmoleado negro', swatchClass: 'marmol', image: luzCalmaMarmol },
-      { name: 'Marfil Nube', swatchClass: 'nube', image: luzCalmaNube }
+      { name: 'Blanco marfil', swatchClass: 'nube', image: luzCalmaNube }
     ],
     contains: ['1 Florero estriado', '1 Bandeja ovalada', '1 Alhajero con tapa', 'Ramas preservadas de eucalipto'],
     material: 'Concreto decorativo',
