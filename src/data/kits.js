@@ -8,7 +8,7 @@ import esenciaImage from '../assets/kit-esencia.jpeg';
 export const kits = [
   {
     id: 'esencia',
-    side: 'left',
+    side: 'right',
     eyebrow: 'Kit para decorar y regalar',
     name: 'Esencia',
     tagline: 'Un detalle pensado para aportar calma, forma y presencia a los espacios cotidianos.',
