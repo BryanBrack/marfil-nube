@@ -11,6 +11,7 @@ export default function Header() {
         </div>
         <nav className="links" aria-label="Navegación principal">
           <a href="#filosofia">Filosofía</a>
+          <a href="#esencia">Kit Esencia</a>
           <a href="#refugio">Kit Refugio</a>
           <a href="#luzcalma">Kit Luz &amp; Calma</a>
           <a href="#materiales">Materiales</a>

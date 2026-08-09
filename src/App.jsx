@@ -20,6 +20,15 @@ export default function App() {
       <Gallery />
       <Cta />
       <Footer />
+      <a
+        href="https://wa.me/573242544173"
+        target="_blank"
+        rel="noreferrer"
+        className="whatsapp-float"
+        aria-label="Contactar por WhatsApp"
+      >
+        <span className="whatsapp-label">WhatsApp</span>
+      </a>
     </>
   );
 }

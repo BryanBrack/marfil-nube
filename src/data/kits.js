@@ -1,13 +1,30 @@
 // src/data/kits.js
-import refugioMarmol from '../assets/kit-refugio-marmol.png';
+import refugioMarmol from '../assets/kit-refugio-marmol.jpeg';
 import refugioNube from '../assets/kit-refugio-nube.png';
-import luzCalmaMarmol from '../assets/kit-luzcalma-marmol.png';
+import luzCalmaMarmol from '../assets/kit-luzcalma-marmol.jpeg';
 import luzCalmaNube from '../assets/kit_luzcalma_nube.png';
+import esenciaImage from '../assets/kit-esencia.jpeg';
 
 export const kits = [
   {
-    id: 'refugio',
+    id: 'esencia',
     side: 'left',
+    eyebrow: 'Kit para decorar y regalar',
+    name: 'Esencia',
+    tagline: 'Un detalle pensado para aportar calma, forma y presencia a los espacios cotidianos.',
+    variants: [
+      { name: 'Blanco marfil', swatchClass: 'nube', image: esenciaImage }
+    ],
+    contains: ['1 pieza de decoración', 'Diseño pensado para regalar', 'Embalaje listo para entregar'],
+    material: 'Concreto decorativo',
+    colors: [
+      { name: 'Blanco marfil', swatchClass: 'nube' }
+    ],
+    note: 'Una propuesta delicada para quienes buscan un regalo con presencia y una sensación serena.'
+  },
+  {
+    id: 'refugio',
+    side: 'right',
     eyebrow: 'Kit para el baño',
     name: 'Refugio',
     tagline: 'Un detalle pensado para transformar los pequeños momentos de cada día.',

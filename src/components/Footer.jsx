@@ -16,6 +16,7 @@ export default function Footer() {
           <div className="footer-cols">
             <div className="footer-col">
               <h5>Colección</h5>
+              <a href="#esencia">Kit Esencia</a>
               <a href="#refugio">Kit Refugio</a>
               <a href="#luzcalma">Kit Luz &amp; Calma</a>
             </div>
@@ -29,7 +30,7 @@ export default function Footer() {
               <h5>Contacto</h5>
               {/* <a href="mailto:hola@marfilnube.com">hola@marfilnube.com</a> */}
               <a href="https://www.instagram.com/marfilnube" target="_blank" rel="noreferrer">@marfilnube</a>
-              <a href="tel:+573001234567">+57 324 254 4173</a>
+              <a href="tel:+573242544173">+57 324 254 4173</a>
             </div>
           </div>
         </div>

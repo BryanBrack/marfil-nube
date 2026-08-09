@@ -14,7 +14,7 @@ export default function Hero() {
           objetos con alma.
         </h1>
         <p>
-          Concreto decorativo moldeado a mano en formas que transforman una rutina común en un momento de calma. Dos kits, una misma intención: acompañar tus espacios con belleza silenciosa.
+          Concreto decorativo moldeado a mano en formas que transforman una rutina común en un momento de calma. Tres kits, una misma intención: acompañar tus espacios con belleza silenciosa.
         </p>
         <p style={{ color: 'var(--ink-soft)', maxWidth: '420px', marginBottom: '34px' }}>
           Pedidos limitados desde Bogotá con envío seguro y empaque listo para regalar.
